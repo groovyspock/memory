@@ -23,7 +23,7 @@
       </exec>
     </target>
 
-    <target name="createPackage" depends="osjudge">
+    <target name="createPackage" depends="osjudge,compilewin,compilelinux">
       <echo>
         createPackage..
       </echo>
